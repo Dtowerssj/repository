@@ -363,6 +363,7 @@ public class Main {
 					cobra.atacaDeRegreso();
 					cobra.caza();
 					
+					//Me equivoque y lo subi al branch master
 			System.out.println("\n\nTORTUGA MARINA:"
 					+ "Edad: "+ titu.getEdad()+" años \n" 
 					+ "Peso: "+ titu.getPeso()+" kg \n"
@@ -377,7 +378,8 @@ public class Main {
 					+ "\nExtremidades: "+ titu.isExtremidades()
 					+ "\nDientes: "+ titu.isDientes()
 					+ "\nNumero de dientes: "+ titu.getNumeroDeDientes()
-			
+			 
+					
 					); 
 			
 			System.out.println("La Trotuga Marina: ");
