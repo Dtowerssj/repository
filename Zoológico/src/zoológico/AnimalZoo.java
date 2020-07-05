@@ -4,7 +4,7 @@ public abstract class AnimalZoo {
 
 	//Atributos animales
 	private int edad, peso, numeroDePatas;
-	private String tamaño, medio, genero, alimentacion, color;
+	private String nombre, tamaño, medio, genero, alimentacion, color;
 	boolean pelo;
 	
 	//Métodos:
@@ -14,6 +14,7 @@ public abstract class AnimalZoo {
 		this.edad = 3; //años
 		this.peso = 2; //kg         
 		this.numeroDePatas = 4;
+		this.nombre = "Perro";
 		this.tamaño = "pequeño";
 		this.medio = "terrestre";
 		this.genero = "hembra";
@@ -21,13 +22,14 @@ public abstract class AnimalZoo {
 		this.color = "blanco";         // Sobrecarga de métodos constructores
 		this.pelo = true;
 	}
-	public AnimalZoo(int edad, int peso, int numeroDePatas, String tamaño, 
+	public AnimalZoo(int edad, int peso, int numeroDePatas, String nombre, String tamaño, 
 			String medio, String genero, String alimentacion,  String color,
 			boolean pelo) {
 		
 		this.edad = edad;
 		this.peso = peso;
 		this.numeroDePatas = numeroDePatas;
+		this.nombre = nombre;
 		this.tamaño = tamaño;
 		this.medio = medio;
 		this.genero = genero;
@@ -57,6 +59,12 @@ public abstract class AnimalZoo {
 		return numeroDePatas;
 	}
 
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 	public void setNumeroDePatas(int numeroDePatas) {
 		this.numeroDePatas = numeroDePatas;
 	}
