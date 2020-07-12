@@ -11,11 +11,11 @@ public class Reptiles extends AnimalZoo implements MecanismoDeAtaque, MecanismoD
 		super();
 		}
 	public Reptiles(int edad, int peso, int numeroDePatas, 
-			String tamaño, String medio, String genero,
+			String nombre, String tamaño, String medio, String genero,
 			String alimentacion, String color, boolean pelo, boolean caparazon, 
 			boolean extremidades, boolean dientes, int numeroDeDientes) {
 		
-		super(edad, peso, numeroDePatas, tamaño, medio, genero, alimentacion, color, pelo);
+		super(edad, peso, numeroDePatas, nombre, tamaño, medio, genero, alimentacion, color, pelo);
 		
 		this.caparazon = caparazon;
 		this.extremidades = extremidades;

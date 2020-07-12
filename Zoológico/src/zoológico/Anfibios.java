@@ -12,10 +12,10 @@ public class Anfibios extends AnimalZoo implements MecanismoDeDefensa, Mecanismo
 	}
 	
 	public Anfibios(int edad, int peso, int numeroDePatas,
-			String tamaño, String medio, String genero,
+			String nombre, String tamaño, String medio, String genero,
 			String alimentacion, String color, boolean pelo, boolean cola, String tipoDeRespiracion) {
 		
-		super(edad, peso, numeroDePatas, tamaño, medio, genero, alimentacion, color, pelo);
+		super(edad, peso, numeroDePatas, nombre, tamaño, medio, genero, alimentacion, color, pelo);
 		
 		this.cola = cola;
 		this.tipoDeRespiracion = tipoDeRespiracion;

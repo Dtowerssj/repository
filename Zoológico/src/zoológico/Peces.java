@@ -10,11 +10,11 @@ public class Peces extends AnimalZoo implements MecanismoDeAtaque, MecanismoDeDe
 	public Peces() {
 		super();
 		}
-	public Peces(int edad, int peso,  int numeroDePatas, String tamaño, String medio, 
+	public Peces(int edad, int peso,  int numeroDePatas, String nombre, String tamaño, String medio, 
 			String genero, String alimentacion, String color, boolean pelo, int numeroDeAletas, 
 			int numeroDeBranquias, boolean cartilaginoso, boolean oseo, boolean escamas) {
 		
-		super(edad, peso, numeroDePatas, tamaño, medio, genero, alimentacion, color, pelo);
+		super(edad, peso, numeroDePatas, nombre, tamaño, medio, genero, alimentacion, color, pelo);
 		
 		this.numeroDeAletas = numeroDeAletas;
 		this.numeroDeBranquias = numeroDeBranquias;

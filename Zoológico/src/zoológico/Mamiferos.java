@@ -11,13 +11,14 @@ public class Mamiferos extends AnimalZoo implements MecanismoDeAtaque, Mecanismo
 	public Mamiferos() {
 		super();
 		}
-	public Mamiferos(int edad, int peso, int numeroDePatas, String tamaño, 
+	public Mamiferos(int edad, int peso, int numeroDePatas, String nombre, String tamaño,
 			String medio, String genero, String alimentacion, String color,
 			boolean pelo, int numeroDeDientes, int numeroDeGlandulasMamarias, 
 			String cantidadDePelo, boolean oreja, boolean huesosEnElOido) {
 		
-		super(edad, peso, numeroDePatas, tamaño, medio, genero, alimentacion, color, pelo);
+		super(edad, peso, numeroDePatas, nombre, tamaño, medio, genero, alimentacion, color, pelo);
 		
+	
 		this.numeroDeDientes = numeroDeDientes;
 		this.numeroDeGlandulasMamarias = numeroDeGlandulasMamarias;
 		this.cantidadDePelo = cantidadDePelo;

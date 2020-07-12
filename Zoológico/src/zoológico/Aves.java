@@ -11,11 +11,11 @@ public class Aves extends AnimalZoo implements MecanismoDeAtaque, FormasDeDespla
 	public Aves() {
 		super();
 		}
-	public Aves(int edad, int peso, int numeroDePatas, String tamaño, 
+	public Aves(int edad, int peso, int numeroDePatas, String nombre, String tamaño, 
 			String medio, String genero, String alimentacion, String color,
 			boolean pelo, int numeroDePlumas, String colorDePico, boolean garras) {
 		
-		super(edad, peso, numeroDePatas, tamaño, medio, genero, alimentacion, color, pelo);
+		super(edad, peso, numeroDePatas, nombre, tamaño, medio, genero, alimentacion, color, pelo);
 		
 		this.numeroDePlumas = numeroDePlumas;
 		this.colorDePico = colorDePico;
