@@ -5,7 +5,7 @@ public abstract class AnimalZoo {
 	//Atributos animales
 	private int edad, peso, numeroDePatas;
 	private String nombre, tamaño, medio, genero, alimentacion, color;
-	boolean pelo;
+	private boolean pelo;
 	
 	//Métodos:
 	

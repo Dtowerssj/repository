@@ -3,9 +3,9 @@ package zoológico;
 public class Mamiferos extends AnimalZoo implements MecanismoDeAtaque, MecanismoDeDefensa, FormasDeDesplazarse {
 
 	//Atributos
-	private int numeroDeDientes, numeroDeGlandulasMamarias;
-	private String cantidadDePelo;
-	private boolean oreja, huesosEnElOido;
+	static int numeroDeDientes, numeroDeGlandulasMamarias;
+	static String cantidadDePelo;
+	static boolean oreja, huesosEnElOido;
 	
 	//Método Constructor
 	public Mamiferos() {
@@ -24,6 +24,8 @@ public class Mamiferos extends AnimalZoo implements MecanismoDeAtaque, Mecanismo
 		this.oreja = oreja;
 		this.huesosEnElOido = huesosEnElOido;
 	}
+	
+	
 	
 	//Getters y Setters
 	public int getNumeroDeDientes() {
